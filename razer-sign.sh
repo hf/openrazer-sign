@@ -22,7 +22,7 @@ $KSCRIPTS/sign-file sha512 "$DIR/MOK.priv" "$DIR/MOK.der" razerkraken.ko
 $KSCRIPTS/sign-file sha512 "$DIR/MOK.priv" "$DIR/MOK.der" razermouse.ko
 $KSCRIPTS/sign-file sha512 "$DIR/MOK.priv" "$DIR/MOK.der" razermug.ko
 
-xz -c razercore.ko > razerkore.ko.xz
+xz -c razercore.ko > razercore.ko.xz
 xz -c razerkbd.ko > razerkbd.ko.xz
 xz -c razerfirefly.ko > razerfirefly.ko.xz
 xz -c razerkraken.ko > razerkraken.ko.xz
